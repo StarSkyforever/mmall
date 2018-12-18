@@ -1,6 +1,4 @@
-package com.mmall.uitl;
-
-import org.springframework.util.StringUtils;
+package com.mmall.util;
 
 import java.security.MessageDigest;
 
@@ -26,9 +24,9 @@ public class MD5Util {
         return hexDigits[d1] + hexDigits[d2];
     }
 
-    public  static  void main(String args[]){
-        System.out.println(MD5EncodeUtf8("30B1838F71D4A472F3A2FB83F3C4EC23"));
-    }
+//    public  static  void main(String args[]){
+//        System.out.println(MD5EncodeUtf8("30B1838F71D4A472F3A2FB83F3C4EC23"));
+//    }
     /**
      * 返回大写MD5
      *
